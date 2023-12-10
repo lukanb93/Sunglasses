@@ -1,0 +1,83 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Sep 5, 2023, 7:26:18 PM
+    Author     : L
+*/
+
+/*
+
+> 0px SM - NO NAME
+
+> 576px SM - small devices
+
+> 768px MD - medium devices
+
+> 992 LG - large devices
+
+> 1200 XL - extra large devices
+*/
+
+@media(min-width:576px){
+.achievements .achievement-item h3{
+    font-size: 50px;
+}
+
+}
+
+
+
+
+
+@media(min-width:768px){
+
+    .lead-section .carousel .carousel-item .caption{
+        width: 53%;
+    }
+
+    .lead-section .carousel .carousel-item .caption h2{
+        font-size: 60px;
+        line-height: 80px;
+        letter-spacing: 1.99px;
+    }
+
+    .lead-section .carousel .carousel-item{
+        padding: 150px 0;
+    }
+
+}
+
+
+
+
+@media(min-width:992px){
+
+    .navbar .navbar-nav .nav-link{
+        padding: 20px;
+        border-bottom: 2px solid transparent;
+        transition: all 0.5s ease;
+    }
+    .lead-section .carousel .carousel-item{
+        padding: 200px 0;
+    }
+    
+    .carousel-indicators{
+        bottom:50px;
+    }
+}
+
+@media(min-width:1200px){
+
+    .container{
+        max-width: 1170px;
+    }
+
+    .navbar .navbar-nav .nav-item{
+        margin-left: 15px;
+    }
+    .lead-section .carousel .carousel-item{
+        padding: 250px 0;
+    }
+}
